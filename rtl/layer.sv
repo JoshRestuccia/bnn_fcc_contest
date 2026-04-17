@@ -26,7 +26,6 @@ module layer #(
     //NP Inputs
     logic [                31:0] threshold      [PARALLEL_NEURONS];
     logic [ PARALLEL_INPUTS-1:0] weights        [PARALLEL_NEURONS];
-    // logic                        last;
 
     //NP Outputs
     logic [PARALLEL_NEURONS-1:0] valid_out_np;
